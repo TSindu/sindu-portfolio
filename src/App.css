@@ -1,0 +1,128 @@
+
+/* common properties */
+.text-teal { color: teal;}
+.bg-teal { background-color: teal;}
+
+/* menu */
+
+.navbar {
+  background-color: #ccc;
+}
+
+.navbar .navbar-nav .nav-item .nav-link, 
+.navbar .navbar-brand {
+  color: #888;
+  font-weight:  600;
+}
+
+.navbar-nav > .nav-item > .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: teal;
+  border-left:  2px solid teal;
+  transition: border 0.5s ease-in-out;
+}
+
+/* Home */
+#homeSection {
+  background: url('./images/bg-home.jpg') ;
+  background-repeat: no-repeat;
+  background-color: center;
+  background-size: cover;
+  height: 100vh;
+}
+/* .div>h1 {
+  font-weight: bolder;
+} */
+/* about */
+#about {
+  height: 100vh;
+}
+/*Profile */
+#profile {
+  height: 100vh;
+}
+
+#profile .section-title p {
+  text-align: justify;
+  text-indent: 100px;
+}
+
+#profile .profile-title {
+  color: #222222;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+#profile .profile-item {
+  padding:  0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid teal;
+  position: relative;
+}
+
+#profile .profile-item h4{
+  color: #1d685f;
+  line-height: 18px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
+}
+
+#profile .profile-item h5 {
+  color: teal;
+  font-size: 16px;
+  padding: 5px 15px;
+  background: #effbf9;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#profile .profile-item::before{
+  content: "";
+  position: absolute;
+  border: 2px solid teal;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  left: -9px;
+  top: 0px;
+  background-color: #fff;
+}
+/* footer */
+#footer{
+  background: transparent;
+}
+
+#pnf {
+  height: 100vh;
+}
+
+/* image */
+.card-img-top {
+  height: 270px;
+}
+
+/* contact */
+#contact .card{
+  border: none;
+} 
+#contact  .contact-form .form-input {
+  box-shadow: none;
+  outline: none;
+  color: #555;
+}
+
+#contact .contact-item i {
+  font-size: 1.8rem;
+}
+
+#contact .contact-label h4{
+  color: teal;
+}
+
+#contact .contact-label p{
+  color: #555;
+}
